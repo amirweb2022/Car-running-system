@@ -1,0 +1,164 @@
+@font-face {
+    font-family: yekan;
+    src: url('fonts/Yekan.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: yekan;
+}
+
+body {
+    direction: rtl;
+    background: #eee;
+    padding-bottom: 120px;
+}
+
+header {
+    padding: 15px;
+    border-bottom: 1px solid #aaa;
+    box-shadow: 0px 1px 3px 3px #ccc;
+    background: #fff;
+}
+
+header img {
+    display: inline-block;
+}
+
+header h3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Car-Section */
+
+#top-title {
+    margin-top: 25px;
+}
+
+.car-item {
+    border: 1px solid #aaa;
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+}
+
+.car-item-selected {
+    border: 1px solid red;
+    opacity: 0.6;
+}
+
+.car-item-disable {
+    opacity: 0.3;
+}
+
+.car-item a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.car-item-head {
+    background: #333;
+    color: #fff;
+    height: 80px;
+    padding: 12px 5px;
+}
+
+.car-item-image {
+    position: relative;
+}
+
+.car-item img {
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #eee;
+    position: absolute;
+    top: -50px;
+    left: 22px;
+}
+
+.car-item h4 {
+    padding: 110px 5px 10px;
+    color: #333;
+    background: #fff;
+}
+
+/* information-section */
+
+#information-section,
+#rent-section,
+#result-section {
+    padding: 25px;
+    display: none;
+}
+
+#information-box,
+#rent-box,
+#result-box {
+    width: 75.5%;
+    border: 1px solid #aaa;
+    margin: 0 auto;
+    background: #fff;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+}
+
+table .title {
+    width: 25%;
+}
+
+table .content {
+    width: 75%;
+}
+
+
+input[type='text'],
+input[type='number'],
+select {
+    width: 96%;
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    box-shadow: 1px 1px 1px 1px #eee;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+
+
+table input[type='text'],
+input[type='number'],
+input[type='checkbox'] {
+    margin: 20px auto;
+}
+
+.btn {
+    background-color: #333;
+    padding: 10px 35px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    float: left;
+    border-bottom: 12px solid #666;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.btn:hover {
+    border-bottom: none;
+    margin-top: 12px;
+}
+
+#result-box {
+    padding: 50px 0;
+    line-height: 50px;
+}
